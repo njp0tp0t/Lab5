@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.Set;
 /**
  * This class implements a technical support system. It is the top level class 
  * in this project. The support system communicates via text input/output 
@@ -46,7 +45,7 @@ public class SupportSystem
                 finished = true;
             }
             else {
-                HashSet<String> response = responder.generateResponse();
+                String response = responder.generateResponse(input);
                 System.out.println(response);
             }
         }
