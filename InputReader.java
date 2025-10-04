@@ -26,7 +26,7 @@ public class InputReader
      *
      * @return  A String typed by the user.
      */
-    public String getInput()
+    public HashSet<String> getInput()
     {
         // print prompt
         System.out.print("> ");         
